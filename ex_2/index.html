@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <div class="top">Identificando você!</strong> </strong></div>
+    <div class="sub-container">
+        <div class="quadrado">
+            <div>
+                <div id="title">Verificador de idade!</div>
+                <form method="get" action="">
+                    Ano de nascimento: <input type=" number " name=" adus " id="ano" placeholder=" Ano de nascimento "
+                        min="0"><br> <br>
+                    Sexo:<input type="radio" name=" sexos" class="sexo">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name=" sexos " class="sexo">
+                    <label for="feminino">Feminino</label>
+                    <br><br>
+                    <input type="button" value="Verificar" onclick="verificar()">
+                    <input type="reset" value="Reiniciar">
+
+                </form>
+                <div id="res">
+                    Preencha os dados acima para ver o resultado!
+                </div>
+                <img id="picture" src="./imagens/adultoHom.png" alt="">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
